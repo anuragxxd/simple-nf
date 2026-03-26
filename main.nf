@@ -1,5 +1,5 @@
 process sayHello {
-  container 'alpine:3.21'
+  container 'ubuntu:24.04'
   output:
     path 'hello.txt'
   script:
